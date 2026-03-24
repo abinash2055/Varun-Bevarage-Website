@@ -133,7 +133,7 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold">ADDRESS</p>
                   <p className="text-gray-700">
-                    Varun Beverages, Nawalparasi Industrial District,
+                    Varun Beverages, West Nawalparasi Industrial District,
                     Ramgram-10, Nawalparasi, Nepal, P.O. Box: 33000
                   </p>
                 </div>
@@ -200,59 +200,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-      {/* Contact Form */}
-      {/* <section className="max-w-4xl mx-auto px-6 py-12">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-blue-700 mb-6">
-          Contact Us
-        </h1>
-        <p className="text-lg mb-10 text-gray-700">
-          We'd love to hear from you! Fill out the form below or reach out via
-          email.
-        </p>
-
-        <form className="space-y-6 bg-white p-10 rounded-2xl shadow-2xl">
-          <div>
-            <label className="block text-gray-700 font-semibold mb-2">
-              Name
-            </label>
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full border border-gray-300 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
-            />
-          </div>
-
-          <div>
-            <label className="block text-gray-700 font-semibold mb-2">
-              Email
-            </label>
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full border border-gray-300 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
-            />
-          </div>
-
-          <div>
-            <label className="block text-gray-700 font-semibold mb-2">
-              Message
-            </label>
-            <textarea
-              placeholder="Your Message"
-              className="w-full border border-gray-300 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
-              rows="6"
-            ></textarea>
-          </div>
-
-          <button
-            type="submit"
-            className="bg-blue-700 text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-blue-800 hover:scale-105 transition-transform duration-300"
-          >
-            Send Message
-          </button>
-        </form>
-      </section> */}
     </>
   );
 };
