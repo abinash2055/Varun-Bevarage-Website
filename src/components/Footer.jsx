@@ -54,7 +54,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-500 transition-colors">
+              <a href="/media" className="hover:text-red-500 transition-colors">
                 Media
               </a>
             </li>

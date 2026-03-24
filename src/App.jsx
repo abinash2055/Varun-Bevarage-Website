@@ -15,6 +15,7 @@ import Terms from "./pages/policies/Terms";
 import Policy from "./pages/policies/Policy";
 import Disclaimer from "./pages/policies/Disclaimer";
 import Brands from "./pages/Brands";
+import Media from "./pages/Media";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
             <Route path="/privacy" element={<Policy />} />
             <Route path="/disclaimer" element={<Disclaimer />} />
             <Route path="/brands" element={<Brands />} />
+            <Route path="/media" element={<Media />} />
           </Routes>
         </main>
 
