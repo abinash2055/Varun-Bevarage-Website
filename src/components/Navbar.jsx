@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-4 sm:gap-6">
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/2/22/Varun_Beverages.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQJbXmuJi9Gnu6rMl9XX5wbPgnAUOU_fVpg&s"
             alt="logo"
             className="h-12 sm:h-16 md:h-20 object-contain"
           />

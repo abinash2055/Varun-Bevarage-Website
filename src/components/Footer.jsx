@@ -50,7 +50,7 @@ export default function Footer() {
           <h2 className="text-red-500 font-semibold mb-2">POLICIES</h2>
           <ul className="space-y-1 text-sm mb-4">
             <li>
-              <a href="" className="hover:text-red-500">
+              <a href="/terms" className="hover:text-red-500">
                 Terms and Conditions
               </a>
             </li>

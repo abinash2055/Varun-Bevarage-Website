@@ -11,6 +11,9 @@ import Home from "./pages/Home";
 import Investor from "./pages/Investor";
 import Products from "./pages/Products";
 import Sustainability from "./pages/Sustainability";
+import Terms from "./pages/policies/Terms";
+import Policy from "./pages/policies/Policy";
+import Disclaimer from "./pages/policies/Disclaimer";
 
 const App = () => {
   return (
@@ -30,6 +33,9 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
 
             {/* Footer  */}
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Policy />} />
+            <Route path="/disclaimer" element={<Disclaimer />} />
           </Routes>
         </main>
 
