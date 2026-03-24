@@ -41,7 +41,7 @@ const Navbar = () => {
 
           <Link to="/contact">
             <button className="bg-white text-red-500 px-6 py-3 rounded-full font-bold text-xl shadow-lg hover:bg-gray-200 ring-2 hover:scale-105 transition duration-300 transform ring-red-500 hover:ring-red-600 focus:outline-none">
-              Contact
+              Contact Us
             </button>
           </Link>
         </div>

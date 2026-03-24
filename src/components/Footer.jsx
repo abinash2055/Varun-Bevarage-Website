@@ -26,7 +26,7 @@ export default function Footer() {
           <p className="text-sm">Corporate Office</p>
           <p className="text-sm mb-3">pcnpl@mail.com.np</p>
 
-          <p className="font-medium">Nawalpur, West nawalparasi</p>
+          <p className="font-medium">Nawalpur, West Nawalparasi</p>
           <p className="text-sm">Subsidiary Office</p>
           <p className="text-sm">letstalk@coca-cola.com.np</p>
         </div>
