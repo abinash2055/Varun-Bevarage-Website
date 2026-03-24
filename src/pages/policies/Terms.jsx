@@ -145,7 +145,7 @@ const Terms = () => {
               ))}
 
               {/* Footer Link */}
-              <p className="text-gray-600 text-md text-center mt-6">
+              <p className="text-gray-600 text-xl text-center mt-6">
                 For more details, please refer to our{" "}
                 <span className="text-red-500 font-semibold cursor-pointer hover:underline">
                   Terms and Conditions

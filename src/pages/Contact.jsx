@@ -62,7 +62,7 @@ const Contact = () => {
                 <span className="text-red-500 text-2xl">📞</span>
                 <div>
                   <p className="font-semibold">PHONE</p>
-                  <p className="text-gray-700">01-4990066 | 01-4952988</p>
+                  <p className="text-gray-700">01-4990066</p>
                 </div>
               </div>
             </div>
