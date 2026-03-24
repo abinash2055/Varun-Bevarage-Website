@@ -1,16 +1,29 @@
-# React + Vite
+# Varun Beverages Nepal - Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Varun Beverages Nepal Pvt. Ltd. is a leading PepsiCo bottler in Nepal. It manufactures and distributes popular beverages such as Pepsi, 7UP, Mountain Dew, Mirinda, Sting, Aquafina, and Slice.
 
-Currently, two official plugins are available:
+## 📍 About
+- One of the largest beverage companies in Nepal
+- Operates under Varun Beverages Limited
+- Headquartered in Kathmandu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🏭 Products
+- Pepsi
+- 7UP
+- Mountain Dew
+- Mirinda
+- Sting
+- Aquafina
+- Slice
 
-## React Compiler
+## 🚀 Key Features
+- Strong distribution network across Nepal
+- Modern manufacturing facilities
+- High-quality production standards
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Purpose
+This repository contains basic information about Varun Beverages Nepal for learning and documentation purposes.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⭐ Feel free to explore and contribute!
