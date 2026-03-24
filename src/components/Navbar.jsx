@@ -9,7 +9,6 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Products", path: "/brands" },
-    { name: "Investor", path: "/investor" },
   ];
 
   return (
@@ -17,11 +16,13 @@ const Navbar = () => {
       <div className="max-w-8xl mx-auto flex items-center px-6 sm:px-10 md:px-20 py-6">
         {/* Logo */}
         <div className="flex items-center gap-4 sm:gap-6">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQJbXmuJi9Gnu6rMl9XX5wbPgnAUOU_fVpg&s"
-            alt="logo"
-            className="h-12 sm:h-16 md:h-20 object-contain"
-          />
+          <Link to="/">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQJbXmuJi9Gnu6rMl9XX5wbPgnAUOU_fVpg&s"
+              alt="logo"
+              className="h-12 sm:h-16 md:h-20 object-contain cursor-pointer"
+            />
+          </Link>
           <span className="text-2xl sm:text-3xl md:text-4xl font-bold">
             Varun Beverage
           </span>
