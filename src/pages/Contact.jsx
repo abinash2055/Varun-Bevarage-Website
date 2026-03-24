@@ -21,6 +21,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
+
       {/* Kathmandu Location */}
       <section className="max-w-7xl mx-auto px-6 py-12">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gradient-to-r from-red-500 to-pink-500 mb-10">

@@ -34,14 +34,38 @@ export default function Footer() {
         {/* Common Links */}
         <div>
           <h2 className="text-red-500 font-semibold mb-2">COMMON LINKS</h2>
-          <ul className="space-y-1 text-sm">
-            <li>Business</li>
-            <li>Brands</li>
-            <li>Sustainability</li>
-            <li>Investor Relations</li>
-            <li>Careers</li>
-            <li>Media</li>
-            <li>Contact Us</li>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <a href="/about" className="hover:text-red-500 transition-colors">
+                Business
+              </a>
+            </li>
+            <li>
+              <a
+                href="/brands"
+                className="hover:text-red-500 transition-colors"
+              >
+                Brands
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-500 transition-colors">
+                Careers
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-red-500 transition-colors">
+                Media
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contact"
+                className="hover:text-red-500 transition-colors"
+              >
+                Contact Us
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -68,15 +92,35 @@ export default function Footer() {
 
           <h2 className="text-red-500 font-semibold mb-2">CONNECT</h2>
           <div className="flex space-x-3">
-            <div className="bg-black text-white p-2 rounded-full">
-              <Facebook size={18} />
-            </div>
-            <div className="bg-red-600 text-white p-2 rounded-full">
-              <Youtube size={18} />
-            </div>
-            <div className="bg-black text-white p-2 rounded-full">
-              <Instagram size={18} />
-            </div>
+            <a
+              href="https://www.facebook.com/NepalPepsi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="bg-black text-white p-2 rounded-full hover:bg-gray-800 transition-colors">
+                <Facebook size={18} />
+              </div>
+            </a>
+
+            <a
+              href="https://www.youtube.com/watch?v=pax9yfCV1cY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="bg-red-600 text-white p-2 rounded-full hover:bg-red-700 transition-colors">
+                <Youtube size={18} />
+              </div>
+            </a>
+
+            <a
+              href="https://www.instagram.com/pepsi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="bg-black text-white p-2 rounded-full hover:bg-gray-800 transition-colors">
+                <Instagram size={18} />
+              </div>
+            </a>
           </div>
         </div>
       </div>

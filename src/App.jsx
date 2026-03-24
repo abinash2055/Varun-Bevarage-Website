@@ -14,6 +14,7 @@ import Sustainability from "./pages/Sustainability";
 import Terms from "./pages/policies/Terms";
 import Policy from "./pages/policies/Policy";
 import Disclaimer from "./pages/policies/Disclaimer";
+import Brands from "./pages/Brands";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Policy />} />
             <Route path="/disclaimer" element={<Disclaimer />} />
+            <Route path="/brands" element={<Brands />} />
           </Routes>
         </main>
 
