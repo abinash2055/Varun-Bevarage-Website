@@ -21,11 +21,13 @@ const App = () => {
   return (
     <>
       <div className="flex flex-col min-h-screen">
+        {/* Fixed Navbar */}
         <Navbar />
 
+        {/* Main content exactly below navbar */}
         <main className="flex-grow">
           <Routes>
-            {/* Navbar  */}
+            {/* Main Pages */}
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
@@ -34,10 +36,12 @@ const App = () => {
             <Route path="/investor" element={<Investor />} />
             <Route path="/contact" element={<Contact />} />
 
-            {/* Footer  */}
+            {/* Policy Pages */}
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Policy />} />
             <Route path="/disclaimer" element={<Disclaimer />} />
+
+            {/* Other Pages */}
             <Route path="/brands" element={<Brands />} />
             <Route path="/media" element={<Media />} />
           </Routes>
