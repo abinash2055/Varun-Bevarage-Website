@@ -20,10 +20,10 @@ const Navbar = () => {
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQJbXmuJi9Gnu6rMl9XX5wbPgnAUOU_fVpg&s"
               alt="logo"
-              className="h-12 sm:h-16 md:h-20 object-contain cursor-pointer"
+              className="h-12 sm:h-16 md:h-20 object-contain cursor-pointer rounded-4xl"
             />
           </Link>
-          <span className="text-2xl sm:text-3xl md:text-4xl font-bold">
+          <span className="text-3xl sm:text-4xl md:text-5xl font-bold">
             Varun Beverage
           </span>
         </div>

@@ -11,7 +11,7 @@ export default function Footer() {
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOPf7uDEiyd8fJVy4Z8Z4KWdpnsmVDJxtIDQ&s"
             alt="Logo"
-            className="h-20"
+            className="h-20 rounded-4xl"
           />
           <div>
             <h1 className="text-2xl font-bold text-red-600">Varun Beverages</h1>
@@ -21,20 +21,20 @@ export default function Footer() {
 
         {/* Locations */}
         <div>
-          <h2 className="text-red-500 font-semibold mb-2">LOCATIONS</h2>
+          <h2 className="text-red-500 font-bold mb-2 text-lg">LOCATIONS</h2>
           <p className="font-medium">Pepsicola, Kathmandu</p>
           <p className="text-sm">Corporate Office</p>
           <p className="text-sm mb-3">pcnpl@mail.com.np</p>
 
           <p className="font-medium">Nawalpur, West Nawalparasi</p>
-          <p className="text-sm">Subsidiary Office</p>
-          <p className="text-sm">letstalk@coca-cola.com.np</p>
+          <p className="text-sm">Corporate Office</p>
+          <p className="text-sm">pcnpl@mail.com.np</p>
         </div>
 
         {/* Common Links */}
         <div>
-          <h2 className="text-red-500 font-semibold mb-2">COMMON LINKS</h2>
-          <ul className="space-y-2 text-sm">
+          <h2 className="text-red-500 font-bold mb-2 text-lg">COMMON LINKS</h2>
+          <ul className="space-y-2 text-md font-semibold">
             <li>
               <a href="/about" className="hover:text-red-500 transition-colors">
                 Business
@@ -71,8 +71,8 @@ export default function Footer() {
 
         {/* Policies & Connect */}
         <div>
-          <h2 className="text-red-500 font-semibold mb-2">POLICIES</h2>
-          <ul className="space-y-1 text-sm mb-4">
+          <h2 className="text-red-500 font-bold mb-2 text-lg">POLICIES</h2>
+          <ul className="space-y-1 text-md mb-4 font-semibold">
             <li>
               <a href="/terms" className="hover:text-red-500">
                 Terms and Conditions
@@ -90,7 +90,7 @@ export default function Footer() {
             </li>
           </ul>
 
-          <h2 className="text-red-500 font-semibold mb-2">CONNECT</h2>
+          <h2 className="text-red-500 font-bold mb-2 text-lg">CONNECT</h2>
           <div className="flex space-x-3">
             <a
               href="https://www.facebook.com/NepalPepsi/"
