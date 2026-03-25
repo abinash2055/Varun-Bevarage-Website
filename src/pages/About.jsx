@@ -195,7 +195,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-10">
             <div className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
               <h3 className="text-3xl font-bold text-blue-700 mb-4">Mission</h3>
-              <p className="text-gray-700 text-lg">
+              <p className="text-gray-800 text-xl">
                 To provide high-quality, refreshing beverages that delight our
                 customers while ensuring sustainability and innovation in our
                 operations.
@@ -203,7 +203,7 @@ const About = () => {
             </div>
             <div className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
               <h3 className="text-3xl font-bold text-blue-700 mb-4">Vision</h3>
-              <p className="text-gray-700 text-lg">
+              <p className="text-gray-800 text-xl">
                 To be the most admired beverage company, recognized for our
                 commitment to quality, people, and communities.
               </p>
@@ -262,7 +262,7 @@ const About = () => {
                 <h3 className="text-2xl font-bold text-blue-700 mb-3">
                   {award.title}
                 </h3>
-                <p className="text-gray-700 text-sm">{award.description}</p>
+                <p className="text-lg">{award.description}</p>
               </div>
             </div>
           ))}

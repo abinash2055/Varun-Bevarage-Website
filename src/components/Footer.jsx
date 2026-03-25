@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Facebook, Youtube, Instagram } from "lucide-react";
 
 export default function Footer() {
+  // For Pop up Career
+  const [showCareerModal, setShowCareerModal] = useState(false);
+
   return (
     <footer className="bg-gray-100 text-gray-800 pt-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -49,9 +52,12 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-red-500 transition-colors">
-                Careers
-              </a>
+              <button
+                onClick={() => setShowCareerModal(true)}
+                className="hover:text-red-500 transition-colors"
+              >
+                Career
+              </button>
             </li>
             <li>
               <a href="/media" className="hover:text-red-500 transition-colors">
@@ -134,11 +140,18 @@ export default function Footer() {
           className="absolute top-0 left-0 w-full h-full object-cover opacity-90"
         />
 
-        {/* Bottle cap */}
+        {/* Left Bottle Cap */}
         <img
-          src="https://i.etsystatic.com/19440880/r/il/d870fb/2597787191/il_570xN.2597787191_ons0.jpg"
-          alt="cap"
-          className="absolute bottom-0 h-37 w-37 rounded-full object-cover"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQJbXmuJi9Gnu6rMl9XX5wbPgnAUOU_fVpg&s"
+          alt="cap-left"
+          className="absolute bottom-0 h-50 w-50 rounded-full object-cover ml-5 my-6"
+        />
+
+        {/* Right Bottle Cap */}
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOPf7uDEiyd8fJVy4Z8Z4KWdpnsmVDJxtIDQ&s"
+          alt="cap-right"
+          className="absolute bottom-0 h-50 w-50 rounded-full object-cover mr-5 my-6 right-0"
         />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4">
@@ -152,6 +165,32 @@ export default function Footer() {
           </p>
         </div>
       </div>
+
+      {/* Career Up Page  */}
+      {/* Career Modal */}
+      {showCareerModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="bg-white rounded-lg max-w-md w-full p-6 relative">
+            <button
+              onClick={() => setShowCareerModal(false)}
+              className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 font-bold text-lg"
+            >
+              &times;
+            </button>
+
+            <h2 className="text-2xl font-bold mb-4 text-red-600">
+              Careers at Varun Beverages
+            </h2>
+            <p className="text-gray-700">
+              Join our team and be part of an exciting journey! At Varun
+              Beverages, we value talent, innovation, and dedication. Explore
+              opportunities in production, marketing, sales, and more. Contact
+              us at <span className="font-bold">info@vbnpl.com.np.</span>
+              for more information.
+            </p>
+          </div>
+        </div>
+      )}
     </footer>
   );
 }
