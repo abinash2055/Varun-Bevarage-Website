@@ -24,7 +24,7 @@ const Navbar = () => {
                 className="h-12 sm:h-16 md:h-20 object-contain cursor-pointer rounded-4xl"
               />
             </Link>
-            <span className="text-2xl sm:text-4xl md:text-5xl font-bold">
+            <span className="text-lg sm:text-xl md:text-2xl font-semibold">
               Varun Beverage Nepal Pvt. Ltd
             </span>
           </div>

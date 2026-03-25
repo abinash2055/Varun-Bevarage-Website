@@ -8,9 +8,7 @@ import About from "./pages/About";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Investor from "./pages/Investor";
 import Products from "./pages/Products";
-import Sustainability from "./pages/Sustainability";
 import Terms from "./pages/policies/Terms";
 import Policy from "./pages/policies/Policy";
 import Disclaimer from "./pages/policies/Disclaimer";
@@ -32,8 +30,6 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
             <Route path="/community" element={<Community />} />
-            <Route path="/sustainability" element={<Sustainability />} />
-            <Route path="/investor" element={<Investor />} />
             <Route path="/contact" element={<Contact />} />
 
             {/* Policy Pages */}
