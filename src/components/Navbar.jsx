@@ -65,7 +65,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Link to="/contact" onClick={() => setOpen(false)}>
-            <button className="w-full bg-red-500 text-white py-2 rounded-full">
+            <button className="w-full bg-red-500 text-white py-2 rounded-full hover:group">
               Contact
             </button>
           </Link>
