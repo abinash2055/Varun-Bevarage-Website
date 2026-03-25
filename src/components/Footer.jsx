@@ -17,7 +17,9 @@ export default function Footer() {
             className="h-20 rounded-4xl"
           />
           <div>
-            <h1 className="text-2xl font-bold text-red-600">Varun Beverages</h1>
+            <h1 className="text-2xl font-semibold text-red-600">
+              Varun Beverages
+            </h1>
             <p className="text-sm">Nepal Private Limited</p>
           </div>
         </div>
@@ -36,8 +38,10 @@ export default function Footer() {
 
         {/* Common Links */}
         <div>
-          <h2 className="text-red-500 font-bold mb-2 text-lg">COMMON LINKS</h2>
-          <ul className="space-y-2 text-md font-semibold">
+          <h2 className="text-red-500 font-semibold mb-2 text-lg">
+            COMMON LINKS
+          </h2>
+          <ul className="space-y-2 text-md">
             <li>
               <a href="/about" className="hover:text-red-500 transition-colors">
                 Business
@@ -77,8 +81,8 @@ export default function Footer() {
 
         {/* Policies & Connect */}
         <div>
-          <h2 className="text-red-500 font-bold mb-2 text-lg">POLICIES</h2>
-          <ul className="space-y-1 text-md mb-4 font-semibold">
+          <h2 className="text-red-500 font-semibold mb-2 text-lg">POLICIES</h2>
+          <ul className="space-y-1 text-md mb-4">
             <li>
               <a href="/terms" className="hover:text-red-500">
                 Terms and Conditions
@@ -96,7 +100,7 @@ export default function Footer() {
             </li>
           </ul>
 
-          <h2 className="text-red-500 font-bold mb-2 text-lg">CONNECT</h2>
+          <h2 className="text-red-500 font-semibold mb-2 text-lg">CONNECT</h2>
           <div className="flex space-x-3">
             <a
               href="https://www.facebook.com/NepalPepsi/"
@@ -155,19 +159,18 @@ export default function Footer() {
         />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <p className="text-xl font-bold">
+          <p className="text-xl font-semibold">
             © "PEPSI", "7UP", "MOUNTAIN-DEW", "MIRINDA", "STING", "AQUAFINA" &
             "SLICE" are the registered trademarks of The Varun Bevarages
             Company.
           </p>
-          <p className="text-sm font-bold mt-2">
+          <p className="text-sm mt-2">
             © 2026 BOTTLERS NEPAL LIMITED ALL RIGHTS RESERVED
           </p>
         </div>
       </div>
 
-      {/* Career Up Page  */}
-      {/* Career Modal */}
+      {/* Career Modal Page */}
       {showCareerModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
           <div className="bg-white rounded-lg max-w-md w-full p-6 relative">

@@ -24,8 +24,8 @@ const Navbar = () => {
                 className="h-12 sm:h-16 md:h-20 object-contain cursor-pointer rounded-4xl"
               />
             </Link>
-            <span className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Varun Beverage
+            <span className="text-2xl sm:text-4xl md:text-5xl font-bold">
+              Varun Beverage Nepal Pvt. Ltd
             </span>
           </div>
 
@@ -35,13 +35,13 @@ const Navbar = () => {
               {navItems.map((item) => (
                 <li key={item.name} className="relative group">
                   <Link to={item.path}>{item.name}</Link>
-                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full font-bold"></span>
+                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
                 </li>
               ))}
             </ul>
 
             <Link to="/contact">
-              <button className="bg-white text-red-500 px-6 py-3 rounded-full font-bold text-xl shadow-lg hover:bg-gray-200 ring-2 hover:scale-105 transition duration-300 transform ring-red-500 hover:ring-red-600 focus:outline-none">
+              <button className="bg-white text-red-500 px-6 py-3 rounded-full text-xl shadow-lg hover:bg-gray-200 ring-2 hover:scale-105 transition duration-300 transform ring-red-500 hover:ring-red-600 focus:outline-none">
                 Contact Us
               </button>
             </Link>

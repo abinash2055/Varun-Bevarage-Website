@@ -214,7 +214,7 @@ const Home = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 h-full flex flex-col md:flex-row items-center justify-center gap-16">
           {/* Left */}
           <div className="flex-1 text-white space-y-6 text-center md:text-left">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
+            <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               Welcome to Varun Beverages
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-md">
@@ -224,7 +224,7 @@ const Home = () => {
 
             <Link
               to="/about"
-              className="px-10 py-4 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 shadow-lg transition-all duration-300 font-bold text-lg sm:text-xl md:text-2xl inline-block"
+              className="px-10 py-4 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 shadow-lg transition-all duration-300 text-lg sm:text-xl md:text-2xl inline-block"
             >
               Learn More
             </Link>
@@ -246,12 +246,12 @@ const Home = () => {
                 </div>
 
                 <div className="p-4">
-                  <h3 className="text-lg md:text-3xl font-bold text-blue-700 mb-2">
+                  <h3 className="text-lg md:text-3xl font-semibold text-blue-700 mb-2">
                     {card.title}
                   </h3>
 
                   {/* Animated Number */}
-                  <p className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                  <p className="text-5xl md:text-6xl bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
                     {counts[index]}
                     {card.suffix}
                   </p>
@@ -266,16 +266,16 @@ const Home = () => {
       <div>
         <h1
           className="items-center justity-between 
-         text-blue-900 font-bold text-center mt-15 px-4 uppercase text-6xl sm:text-7xl lg:text-8xl"
+         text-blue-900 font-demibold text-center mt-15 px-4 uppercase text-6xl sm:text-7xl lg:text-8xl"
         >
           Our Products
         </h1>
-        <p className="text-center mt-2 sm:mt-5 font-bold text-xl max-w-3xl mx-auto">
+        <p className="text-center mt-2 sm:mt-5 text-xl max-w-3xl mx-auto">
           Pepsi is a refreshing, carbonated soft drink loved worldwide for its
           crisp taste and bold flavor. Perfect for every occasion, it energizes
           and delights with every sip.
         </p>
-        <span className="block text-center mt-1 text-blue-900 sm:mt-5 font-bold text-xl max-w-2xl mx-auto items-center justify-between">
+        <span className="block text-center mt-1 text-blue-900 sm:mt-5 text-xl max-w-2xl mx-auto items-center justify-between">
           Thank you for making us part of your moments!
         </span>
       </div>
@@ -307,7 +307,7 @@ const Home = () => {
             {brandImages.map((brand, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-start flex-shrink-0 w-40 sm:w-44 md:w-48 lg:w-52 bg-gray-100 rounded-xl overflow-hidden p-2"
+                className="flex flex-col items-center justify-start flex-shrink-0 w-40 sm:w-44 md:w-48 lg:w-52 rounded-xl overflow-hidden p-2"
               >
                 {/* Image Box */}
                 <div className="h-28 sm:h-32 md:h-36 lg:h-40 w-full flex items-center justify-center">
@@ -330,11 +330,11 @@ const Home = () => {
 
       {/* Team */}
       <div>
-        <h1 className="text-blue-900 font-bold text-center mt-15 px-4 uppercase text-6xl sm:text-7xl lg:text-8xl">
+        <h1 className="text-blue-900 font-semibold text-center mt-15 px-4 uppercase text-6xl sm:text-7xl lg:text-8xl">
           Our Team
         </h1>
 
-        <p className="text-center mt-2 sm:mt-5 font-bold text-xl max-w-5xl mx-auto">
+        <p className="text-center mt-2 sm:mt-5 text-xl max-w-5xl mx-auto">
           Our dedicated team at Varun Beverages works tirelessly to ensure every
           bottle is crafted with quality and care. Their passion, skill, and
           teamwork make refreshing moments possible every day. Thank you to our
@@ -380,11 +380,11 @@ const Home = () => {
       <div>
         <h1
           className="items-center justity-between 
-         text-blue-900 font-bold text-center mt-15 px-4 uppercase text-6xl sm:text-7xl lg:text-8xl"
+         text-blue-900 font-semibold text-center mt-15 px-4 uppercase text-6xl sm:text-7xl lg:text-8xl"
         >
           Awards & Achievements
         </h1>
-        <p className="text-center mt-2 sm:mt-5 font-bold text-xl max-w-6xl mx-auto">
+        <p className="text-center mt-2 sm:mt-5 text-xl max-w-6xl mx-auto">
           At Varun Beverages, our dedication to quality and innovation has
           earned us recognition across the industry. We are proud of our awards
           and achievements that reflect our commitment to excellence and our
@@ -421,7 +421,7 @@ const Home = () => {
               {awardsImages.map((award, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center flex-shrink-0 w-40 sm:w-44 md:w-48 lg:w-52 bg-gray-100 rounded-xl overflow-hidden p-2 h-50 sm:h-52 md:h-42 lg:h-70"
+                  className="flex flex-col items-center flex-shrink-0 w-40 sm:w-44 md:w-48 lg:w-52 rounded-xl overflow-hidden p-2 h-50 sm:h-52 md:h-42 lg:h-70"
                 >
                   {/* Image Box */}
                   <div className="h-28 sm:h-32 md:h-36 lg:h-40 w-full flex items-center justify-center">

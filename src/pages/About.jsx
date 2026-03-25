@@ -136,7 +136,7 @@ const About = () => {
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent flex flex-col justify-center items-start text-white pl-20 md:pl-40 pr-6">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-3">About</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-3">About</h1>
           <p className="text-lg md:text-xl max-w-xl">
             We are a leading FMCG company delivering refreshing beverages across
             Nepal with quality and taste you can trust.
@@ -162,7 +162,7 @@ const About = () => {
 
             {/* Text */}
             <div className={`${index % 2 !== 0 ? "order-2 md:order-1" : ""}`}>
-              <h2 className="text-2xl md:text-3xl font-bold text-red-600 mb-4">
+              <h2 className="text-2xl md:text-3xl font-semibold text-red-600 mb-4">
                 {plant.title}
               </h2>
               <p className="text-gray-800 leading-relaxed text-sm md:text-base">
@@ -185,61 +185,62 @@ const About = () => {
         ></iframe>
       </div>
 
-      {/* Mission History */}
+      {/* Mission and Vision */}
       <div className="max-w-6xl mx-auto px-4 py-12 space-y-20">
-        {/* Mission & Vision */}
         <section className="bg-gradient-to-r from-blue-100 to-blue-50 rounded-2xl p-10 shadow-lg">
-          <h2 className="text-4xl font-bold text-blue-900 mb-8 text-center">
+          <h2 className="text-4xl font-semibold text-blue-900 mb-8 text-center">
             Mission & Vision
           </h2>
           <div className="grid md:grid-cols-2 gap-10">
             <div className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
-              <h3 className="text-3xl font-bold text-blue-700 mb-4">Mission</h3>
-              <p className="text-gray-800 text-xl">
+              <h3 className="text-3xl font-semibold text-blue-700 mb-4">
+                Mission
+              </h3>
+              <p className="text-gray-800 text-lg">
                 To provide high-quality, refreshing beverages that delight our
                 customers while ensuring sustainability and innovation in our
                 operations.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
-              <h3 className="text-3xl font-bold text-blue-700 mb-4">Vision</h3>
-              <p className="text-gray-800 text-xl">
+              <h3 className="text-3xl font-semibold text-blue-700 mb-4">
+                Vision
+              </h3>
+              <p className="text-gray-800 text-lg">
                 To be the most admired beverage company, recognized for our
                 commitment to quality, people, and communities.
               </p>
             </div>
           </div>
         </section>
-
-        {/* Stylish Timeline */}
-        <section>
-          <h2 className="text-4xl font-bold text-blue-900 mb-12 text-center">
-            Our Journey
-          </h2>
-          <div className="relative border-l-4 border-blue-300 ml-6">
-            {timelineItems.map((item, index) => (
-              <div key={index} className="mb-10 ml-6 relative">
-                {/* Dot */}
-                <span className="absolute -left-6 top-0 w-5 h-5 bg-blue-500 rounded-full shadow-lg"></span>
-
-                {/* Card */}
-                <div className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
-                  <p className="text-blue-600 font-bold text-2xl mb-2">
-                    {item.year}
-                  </p>
-                  <p className="text-gray-700 text-lg font-semibold">
-                    {item.event}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
       </div>
+
+      {/* Stylish Timeline */}
+      <section>
+        <h2 className="text-4xl font-semibold text-blue-900 mb-12 text-center">
+          Our Journey
+        </h2>
+        <div className="relative border-l-4 border-blue-300 ml-6">
+          {timelineItems.map((item, index) => (
+            <div key={index} className="mb-10 ml-6 relative">
+              {/* Dot */}
+              <span className="absolute -left-6 top-0 w-5 h-5 bg-blue-500 rounded-full shadow-lg"></span>
+
+              {/* Card */}
+              <div className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
+                <p className="text-blue-600 font-semibold text-2xl mb-2">
+                  {item.year}
+                </p>
+                <p className="text-gray-700">{item.event}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Awards and Achievemernts */}
       <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="text-4xl font-extrabold text-blue-900 mb-16 text-center">
+        <h2 className="text-4xl font-semibold text-blue-900 mb-16 text-center">
           Awards & Achievements
         </h2>
 
@@ -259,10 +260,10 @@ const About = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-blue-700 mb-3">
+                <h3 className="text-2xl font-semibold text-blue-700 mb-3">
                   {award.title}
                 </h3>
-                <p className="text-lg">{award.description}</p>
+                <p>{award.description}</p>
               </div>
             </div>
           ))}
